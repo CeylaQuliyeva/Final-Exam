@@ -1,0 +1,42 @@
+.related {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 225, 225);
+}
+
+.relatedTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 20%;
+}
+
+.homeTitle h2 {
+  font-size: 40px;
+}
+.homeTitle p {
+  font-size: 15px;
+  color: grey;
+}
+.miniCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+  padding: 20px;
+  height: 80%;
+}
+.miniCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}

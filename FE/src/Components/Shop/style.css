@@ -1,0 +1,22 @@
+.shop {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px;
+}
+.shopFoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.fotoCommon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fotoGirls {
+  display: flex;
+  gap: 15px;
+}
